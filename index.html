@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <title>Formulário de Registo</title>
         <link rel="stylesheet" href="style.css">
-        </html>
+        <script src="app.js" defer></script>
         <body>
             <main>
             <h1> Regista-te</h1>
@@ -18,6 +18,27 @@
                     <input type="text" name="email_phone" placeholder="Número de telefone ou email" aria-label="Número de telefone ou email" required>
                     <div class="large-input">
                         <input type="password" name="password" placeholder="Palavra-passe nova" aria-label="Palavra-passe" required>
+                    </div>
+                    <div class="birth-date">
+                        <fieldset>
+                            <legend>Data de Nascimento</legend>
+                            <select name="birth-date" arial-label="Dia"></select>
+                            <select name="birth-month" arial-label="Mês">
+                            <option Value="1">Jan</option>
+                            <option Value="2">Fev</option>
+                            <option Value="3">Mar</option>
+                            <option Value="4">Abr</option>
+                            <option Value="5">JMai</option>
+                            <option Value="6">Jun</option>
+                            <option Value="7">Jul</option>
+                            <option Value="8">Ago</option>
+                            <option Value="9">Set</option>
+                            <option Value="10">Out</option>
+                            <option Value="11">Nov</option>
+                            <option Value="12">Dez</option>
+                        </select>
+                            <select name="birth-year" arial-label="Ano"></select>
+                        </fieldset>
                     </div>
                 </div>
                 
