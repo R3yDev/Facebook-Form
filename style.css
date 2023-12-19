@@ -52,8 +52,19 @@ select {
      padding: 5px 6px;
      background-color: #FFF;
      border: 1 px solid #ccd0d5;
-     border-radius: 5px
+     border-radius: 5px;
 }
+
+.gender-selection fieldset {
+    padding:20px 10px;
+}
+.gender-selection label {
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
 .form-submit {
     margin: 20px 0;
     text-align: center;
